@@ -1,9 +1,11 @@
 package com.demo;
 
 public class HelloWorld {
+	
+	private static String name = "Balakrishnan";
 
-	public static void display() {
-		System.out.println("Hello World!"+ " Welcome to Git!");
+	private static void display() {
+		System.out.println("Hello " + name + "! Welcome to Git!");
 	}
 	
 	public static void main(String[] args) {
