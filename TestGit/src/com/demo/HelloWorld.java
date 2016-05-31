@@ -5,12 +5,17 @@ public class HelloWorld {
 	private static String name = "Balakrishnan";
 
 	private static void display() {
-		System.out.println("Hello " + name + "! Welcome to Git!");
+		System.out.println("Hello " + name + "!");
+	}
+	
+	private static void displayGit() {
+		System.out.println("Welcome to Git!");
 	}
 	
 	public static void main(String[] args) {
 		
 		display();
+		displayGit();
 
 	}
 
